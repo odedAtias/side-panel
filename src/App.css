@@ -136,6 +136,8 @@
 
   .li {
       margin: 16px 0;
+      display: flex;
+      justify-content: space-between;
   }
 
   .index {
@@ -149,11 +151,35 @@
       font-size: 14px;
       line-height: 12px;
       margin: 0;
-
   }
 
   .li-description {
       font-size: 14px;
       margin: 0;
       max-width: 546px;
+      margin-left: 13px;
+  }
+
+  .critical {
+      background-color: #FEF6F6;
+      color: #EB5757;
+      padding: 0 8px;
+      border-radius: 50px;
+      font-size: 12px;
+  }
+
+  .hard {
+      background-color: #FEF6F6;
+      color: #F2994A;
+      padding: 0 8px;
+      border-radius: 50px;
+      font-size: 12px;
+  }
+
+  .medium {
+      background-color: #F6FAEC;
+      color: #88C00D;
+      padding: 0 8px;
+      border-radius: 50px;
+      font-size: 12px;
   }

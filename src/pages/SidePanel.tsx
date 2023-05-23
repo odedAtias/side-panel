@@ -25,15 +25,18 @@ const SidePanel = () => {
 		{
 			title: 'Missing data',
 			description: 'Missing Priority Shipment Data',
+			praiority: 1,
 		},
 		{
 			title: 'No pricing',
 			description:
 				'26 PLL To Sweden; Original Charge (€1,750.00) Is Above The Approximate Price (€1,539.00) For 26 PLL; 20 PLL (€1,485.00), Approximate Cost Per PLL (€9.00); (Including A Threshold Of 1%/€20.00)',
+			praiority: 2,
 		},
 		{
 			title: 'Title',
 			description: 'Might Be Dedicated Truck',
+			praiority: 3,
 		},
 	];
 	return (

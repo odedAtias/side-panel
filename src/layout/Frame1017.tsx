@@ -4,7 +4,7 @@ import OrderedList from '../components/OrderedList';
 // Frame1017 props
 interface Props {
 	title: string;
-	items: {title: string; description: string}[];
+	items: {title: string; description: string; praiority: number}[];
 }
 
 // Frame1017
