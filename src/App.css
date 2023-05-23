@@ -1,6 +1,9 @@
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
+  /* Open sans bold */
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
+  /* Css reset */
   * {
       font-family: 'Open Sans', sans-serif;
   }
@@ -101,8 +104,15 @@
       margin: 0;
   }
 
+  .summarize-val {
+      font-weight: 'bold';
+      font-size: 14px;
+      color: #172326;
+      margin: 0;
+  }
+
   .val {
-      font-weight: bolder;
+      font-weight: 500;
       font-size: 14px;
       color: #172326;
       margin: 0;
