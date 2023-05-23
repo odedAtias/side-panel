@@ -9,7 +9,7 @@ const Aggregation = ({value}: Props) => {
 			className='f-991-item'
 			style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}
 		>
-			<div className='aggregation'>{value} %</div>
+			<div className='aggregation'>{value}%</div>
 		</div>
 	);
 };

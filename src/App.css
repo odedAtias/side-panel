@@ -1,116 +1,138 @@
-* {
-    font-family: sans-serif;
-}
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-.side-panel-container {
-    background-color: black;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.f-1011 {
-    width: 684px;
-    height: 600px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 48px;
-    padding: 40px 32px 32px 32px;
+  * {
+      font-family: 'Open Sans', sans-serif;
+  }
 
-}
+  .side-panel-container {
+      background-color: black;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
 
-.f-1018 {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-}
+  .f-1011 {
+      width: 684px;
+      height: 600px;
+      background-color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+      padding: 40px 32px 32px 32px;
 
-.f-1012 {
-    display: flex;
-    flex-direction: column;
-}
+  }
 
-.f-1009 {
-    display: flex;
-    width: 100%;
-    align-items: center;
-    justify-content: space-between;
-}
+  .f-1018 {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+  }
 
-.f-765 {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
+  .f-1012 {
+      display: flex;
+      flex-direction: column;
+  }
 
-.f-765-title {
-    font-size: 25px;
-}
+  .f-1009 {
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+  }
 
-.f-991 {
-    display: flex;
-    gap: 8px;
-}
+  .f-765 {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+  }
 
-.f-991-item {
-    background-color: #F6F9FA;
-    border-radius: 8px;
-}
+  .f-765-title {
+      font-size: 25px;
+  }
 
-.aggregation {
-    background-color: #88C00D;
-    width: 56px;
-    height: 56px;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-}
+  .f-991 {
+      display: flex;
+      gap: 8px;
+  }
 
-.f-989 {
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
-    padding: 16px 24px;
+  .f-991-item {
+      background-color: #F6F9FA;
+      border-radius: 8px;
+  }
 
-}
+  .aggregation {
+      background-color: #88C00D;
+      width: 56px;
+      height: 56px;
+      border-radius: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+  }
 
-.totalTitle {
-    display: flex;
-    gap: 4px;
-    align-items: center;
-}
+  .f-989 {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      padding: 16px 24px;
 
-.summarize {
-    display: flex;
-    justify-content: space-between;
-}
+  }
 
-.f-989-item {
-    display: flex;
-    flex-direction: column;
-    line-height: 18px;
-}
+  .totalTitle {
+      display: flex;
+      gap: 4px;
+      align-items: center;
+  }
 
-.key {
-    color: #8B9092;
-    font-size: 11px;
-    margin: 0;
-}
+  .summarize {
+      display: flex;
+      justify-content: space-between;
+  }
 
-.val {
-    font-weight: bolder;
-    font-size: 14px;
-    color: #172326;
-    margin: 0;
-}
+  .f-989-item {
+      display: flex;
+      flex-direction: column;
+      line-height: 18px;
+  }
+
+  .key {
+      color: #8B9092;
+      font-size: 11px;
+      margin: 0;
+  }
+
+  .val {
+      font-weight: bolder;
+      font-size: 14px;
+      color: #172326;
+      margin: 0;
+  }
+
+  .main-frame-title {
+      font-size: 14;
+      font-weight: bold;
+      line-height: 20px;
+      color: #172326;
+  }
+
+  .main-frame-list-items {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(calc(33.33% - 24px), 1fr));
+      gap: 24px;
+  }
+
+  .styled {
+      color: #568793;
+      font-style: italic;
+      font-weight: 400;
+  }
