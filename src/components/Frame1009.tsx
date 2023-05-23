@@ -1,6 +1,8 @@
 // Custom components imports
-import IconButton from './IconButton';
 import Badge from './Badge';
+
+// Icons
+import {MdOutlineOpenInNew} from 'react-icons/md';
 
 interface Props {
 	title: string;
@@ -16,9 +18,14 @@ const Frame1009 = ({title}: Props) => {
 				<Badge bgColor='#ECC631'>Pending</Badge>
 			</div>
 			{/* Icon Button */}
-			<div>
-				<IconButton />
-			</div>
+			<MdOutlineOpenInNew
+				style={{
+					color: '#568793',
+					width: '24px',
+					height: '24px',
+					cursor: 'pointer',
+				}}
+			/>
 		</div>
 	);
 };

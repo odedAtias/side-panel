@@ -3,6 +3,10 @@ import Frame1017 from '../layout/Frame1017';
 import Frame1018 from '../layout/Frame1018';
 import MainFrame from '../layout/MainFrame';
 
+// Icons
+import {AiFillInfoCircle, AiOutlineSetting} from 'react-icons/ai';
+import {RiErrorWarningFill} from 'react-icons/ri';
+
 // SidePanel
 const SidePanel = () => {
 	const generalInfo = [
@@ -44,9 +48,42 @@ const SidePanel = () => {
 			{/* 1018 */}
 			<Frame1018 />
 			{/* MainFrame */}
-			<MainFrame title='General Info' items={generalInfo} />
+			<MainFrame
+				title='General Info'
+				items={generalInfo}
+				icon={
+					<AiFillInfoCircle
+						style={{
+							width: '24px',
+							height: '24px',
+							color: '#568793',
+						}}
+					/>
+				}
+			/>
 			{/* MainFrame */}
-			<MainFrame title='Operational Data' items={operationalData} />
+			<div>
+				<MainFrame
+					title='Operational Data'
+					items={operationalData}
+					icon={
+						<div
+							style={{
+								backgroundColor: '#568793',
+								display: 'flex',
+								alignItems: 'center',
+								justifyContent: 'center',
+								borderRadius: '50%',
+								padding: '5px',
+							}}
+						>
+							<AiOutlineSetting
+								style={{width: '14px', height: '14px', color: 'white'}}
+							/>
+						</div>
+					}
+				/>
+			</div>
 			{/* 1017 */}
 			<Frame1017 title='Exception' items={exception} />
 		</div>

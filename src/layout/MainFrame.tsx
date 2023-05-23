@@ -1,16 +1,21 @@
-import {styled} from '@mui/material';
+// React imports
+import {ReactNode} from 'react';
 
 // Props
 interface Props {
+	icon: ReactNode;
 	title: string;
 	items: {label: string; val: string; styled: boolean}[];
 }
 
 // MainFrame component
-const MainFrame = ({title, items}: Props) => {
+const MainFrame = ({title, items, icon}: Props) => {
 	return (
 		<div className='main-frame'>
-			<div className='frame-title'>{title}</div>
+			<div style={{display: 'flex', alignItems: 'center', gap: '8px'}}>
+				{icon}
+				<p className='frame-title'>{title}</p>
+			</div>
 			<hr color='#F0F0F0' />
 			<div className='main-frame-list-items'>
 				{items.map((item, index) => (

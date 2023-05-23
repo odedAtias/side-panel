@@ -1,6 +1,9 @@
 // Custom components imports
 import OrderedList from '../components/OrderedList';
 
+// Icons
+import {RiErrorWarningFill} from 'react-icons/ri';
+
 // Frame1017 props
 interface Props {
 	title: string;
@@ -11,7 +14,12 @@ interface Props {
 const Frame1017 = ({title, items}: Props) => {
 	return (
 		<div>
-			<div className='frame-title'>{title}</div>
+			<div style={{display: 'flex', gap: '8px'}}>
+				<RiErrorWarningFill
+					style={{width: '24px', height: '24px', color: '#EB5757'}}
+				/>
+				<div className='frame-title'>{title}</div>
+			</div>
 			<hr color='#F0F0F0' />
 			<OrderedList items={items} />
 		</div>

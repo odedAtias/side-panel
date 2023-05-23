@@ -18,6 +18,8 @@ const Badge = ({children, bgColor}: Props) => {
 				alignItems: 'center',
 				justifyContent: 'center',
 				borderRadius: '20px',
+				paddingLeft: '9.6px',
+				paddingRight: '9.6px',
 			}}
 		>
 			{children}
