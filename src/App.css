@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 .side-panel-container {
     background-color: black;
     position: fixed;
@@ -15,9 +19,98 @@
 
 .f-1011 {
     width: 684px;
-    height: 700px;
-    background-color: white;
+    height: 600px;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
     gap: 48px;
+    padding: 40px 32px 32px 32px;
+
+}
+
+.f-1018 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.f-1012 {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-1009 {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.f-765 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.f-765-title {
+    font-size: 25px;
+}
+
+.f-991 {
+    display: flex;
+    gap: 8px;
+}
+
+.f-991-item {
+    background-color: #F6F9FA;
+    border-radius: 8px;
+}
+
+.aggregation {
+    background-color: #88C00D;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.f-989 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 16px 24px;
+
+}
+
+.totalTitle {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.summarize {
+    display: flex;
+    justify-content: space-between;
+}
+
+.f-989-item {
+    display: flex;
+    flex-direction: column;
+    line-height: 18px;
+}
+
+.key {
+    color: #8B9092;
+    font-size: 11px;
+    margin: 0;
+}
+
+.val {
+    font-weight: bolder;
+    font-size: 14px;
+    color: #172326;
+    margin: 0;
 }
