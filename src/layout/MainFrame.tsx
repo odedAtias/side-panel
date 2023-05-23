@@ -10,7 +10,7 @@ interface Props {
 const MainFrame = ({title, items}: Props) => {
 	return (
 		<div className='main-frame'>
-			<div className='main-frame-title'>{title}</div>
+			<div className='frame-title'>{title}</div>
 			<hr color='#F0F0F0' />
 			<div className='main-frame-list-items'>
 				{items.map((item, index) => (
